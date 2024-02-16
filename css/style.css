@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#home-screen{
+
+    width: 100vw;
+    height: 100vh;
+    background-color: honeydew;
+    text-align: center;
+}
+
+#welcome-text{
+    padding-top: 2%;
+}
+
+#change-bg-color{
+    color: brown;
+    margin-top: 3%;
+}
+
+.main-img{
+    display: block;
+    margin: 5px auto; 
+    width: 15%;
+    max-width: 300px;
+}
+
+#doggo-img{
+    border: 5px dashed pink;
+}
+
+#cat-img{
+    border: 3px solid blue;
+}
+
+#secret-text{
+    position: absolute;
+    top: 80%;
+    left: 25%;
+}
+
+.animate-img{
+    animation:scaleImg 2s;
+}
+
+@keyframes scaleImg{
+    0%{
+        width: 15%;
+    }
+    50%{
+        width: 30%;
+    }
+    100%{
+        width: 15%;
+    }
+}
